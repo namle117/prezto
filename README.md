@@ -1,4 +1,4 @@
-Prezto — Instantly Awesome Zsh
+Nam's Prezto — Instantly Awesome Zsh
 ==============================
 
 Prezto is the configuration framework for [Zsh][1]; it enriches the command line
@@ -88,7 +88,7 @@ accompanying README files to learn of what is available.
   3. Load the theme you like in *~/.zpreztorc* then open a new Zsh terminal
      window or tab.
 
-     ![sorin theme][2]
+     ![sorin theme](./modules/prompt/external/zsh-prompt-garrett-1.0/img/garrett-prompt-iterm.gif)
 
 ### External Modules
 
