@@ -2,7 +2,7 @@
 # Executes commands at the start of an interactive session.
 #
 # Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#   Nam
 #
 
 # Source Prezto.
@@ -87,3 +87,13 @@ bindkey -M vicmd "q" push-line
 
 # it's like, space AND completion.  Gnarlbot.
 bindkey -M viins ' ' magic-space
+
+# Add ssh certs to the system
+ssh-add -l
+
+# Load the shell dotfiles, and then some:
+source $HOME/.path
+source $HOME/.exports
+source $HOME/.aliases
+source $HOME/.functions
+source $HOME/.extra
